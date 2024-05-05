@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-
 	<title>PHP Basics</title>
 	<h1>PHP Basics</h1>
 </head>
