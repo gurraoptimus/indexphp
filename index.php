@@ -22,7 +22,7 @@ $price = $data["first"];
 if ($price > 1) {
 
 	echo "Price is > 1";
-foreach ($data as $i => $val;
+foreach ($data as $i => $val);
 	echo $i . " = " . $val;}
 ?>
 </body>
