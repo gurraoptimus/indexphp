@@ -4,3 +4,4 @@ if (isset($_POST["submit"])) {
 	print($file);
 	$fileName = $_FILES["file"]["name"];
 }
+?>
