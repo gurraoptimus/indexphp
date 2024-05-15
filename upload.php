@@ -1,7 +1,7 @@
 <?php
 if (isset($_POST["submit"])) {
 	$file = $_FILES["file"];
-print($file);
+print_r($file);
 	$fileName = $_FILES["file"]["name"];
 }
 ?>
