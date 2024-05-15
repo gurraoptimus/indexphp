@@ -20,11 +20,11 @@ if (isset($_POST["submit"])) {
 			if ($fileSize < 500000){
 			# code...
 	}else
-		echo "There was an error uploading your file!";
+	echo "There was an error uploading your file!";
 	}
 	
 	} else {
-		echo "You can't upload files of this type!";
+	echo "You can't upload files of this type!";
 	}
 }
 ?>
