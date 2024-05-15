@@ -19,7 +19,7 @@ if (isset($_POST["submit"])) {
 		if ($fileError === 0){
 			if ($fileSize < 500000){
 			# code...
-	}else {	
+	}else
 		echo "There was an error uploading your file!";
 	}
 	
