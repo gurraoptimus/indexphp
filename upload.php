@@ -19,11 +19,11 @@ if (isset($_POST["submit"])) {
 		if ($fileError === 0){
 		# code...
 	}else {	
-		echo ""
+	echo "There was an error up"
 	}
 	
 	} else {
-		echo "You can't upload files of this type!";
+	echo "You can't upload files of this type!";
 	}
 }
 ?>
