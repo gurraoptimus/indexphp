@@ -4,7 +4,7 @@
     <title></title>
 </head>
 <body>
-    <form action="">
+    <form action="upload.php">
         
     </form>
 </body>
