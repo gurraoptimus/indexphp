@@ -15,8 +15,9 @@ if (isset($_POST["submit"])) {
 
 	$allowed = array('jpg', 'jpeg', 'png', 'pdf');
 
-	if (in_array($fileActualExt, $allowed)) {
+	if (in_array($fileActualExt, $allowed)){
 		if ($fileError === 0){
+			if ($fileSize < 500000){
 			# code...
 	}else {	
 		echo "There was an error uploading your file!";
