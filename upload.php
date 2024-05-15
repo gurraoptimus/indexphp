@@ -5,8 +5,11 @@ if (isset($_POST["submit"])) {
 	
 	$fileName = $_FILES["file"]["name"];
 	$fileTmpName = $_FILES["file"]["tmp_name"];
-	$fileSize = $_FILES["file"]["size"];
-	$fileError = $_FILES["file"]["error"];
-	$fileType = $_FILES["file"]["type"];
+	$fileName = $_FILES["file"]["name"];
+	$fileName = $_FILES["file"]["name"];
+	$fileName = $_FILES["file"]["name"];
+
+	$fileExt = explode('.', $fileName);
+	$
 }
 ?>
